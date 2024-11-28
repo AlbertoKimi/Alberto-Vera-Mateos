@@ -1,0 +1,661 @@
+/*CSS de las páginas visita y las distintas salas que van de la 1 a la 12*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Los distintos contenedor-sala indica los estilos y contiene los distintos elementos de cada sala*/
+.contenedor-salas {
+    width: 60%;
+    height: 2920px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas2 {
+    width: 60%;
+    height: 4380px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas3 {
+    width: 60%;
+    height: 2720px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas4 {
+    width: 60%;
+    height: 2420px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas5 {
+    width: 60%;
+    height: 1820px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas6 {
+    width: 60%;
+    height: 1300px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas7 {
+    width: 60%;
+    height: 1600px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas8 {
+    width: 60%;
+    height: 850px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.contenedor-salas9 {
+    width: 60%;
+    height: 3280px;
+    display: grid;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    height: 55px;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.parrafo {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    height: 40px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.parrafo p {
+    margin-left: 20px;
+}
+
+.sala {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.sala-img {
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+/*Los estilos de las distintas imágenes de las distintas salas*/
+.img1 {
+    border-radius: 4px;
+
+    margin-left: 195px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img1 img {
+    border-radius: 5px;
+}
+
+.img2 {
+    border-radius: 4px;
+    margin-top: 1730px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img2 img {
+    border-radius: 5px;
+}
+
+.img3 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1020px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img3 img {
+    border-radius: 5px;
+}
+
+.img4 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 3135px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img4 img {
+    margin-left: 20px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img5 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 960px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img5 img {
+    margin-left: 20px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img6 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1935px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img6 img {
+    margin-left: 20px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img7 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 670px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img7 img {
+    margin-left: 13px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.img8 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1610px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img8 img {
+    margin-left: 13px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.img9 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 670px;
+    margin-left: 190px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img9 img {
+    margin-left: 13px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.img10 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1570px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img10 img {
+    margin-left: 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.img11 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1570px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img11 img {
+    margin-left: 25px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img12 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1575px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img12 img {
+    margin-left: 25px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img13 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 680px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img13 img {
+    margin-left: 25px;
+    width: 65%;
+    border-radius: 5px;
+}
+
+.img14 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1350px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img14 img {
+    margin-left: 25px;
+    width: 65%;
+    border-radius: 5px;
+}
+
+.img15 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 1410px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img15 img {
+    margin-left: 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.img16 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 910px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img16 img {
+    margin-left: 25px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.img17 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 910px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img17 img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+.img18 {
+    position: absolute;
+    border-radius: 4px;
+    margin-top: 2500px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img18 img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+/*Estilos de los distintos divs de los bloques de texto de las distintas páginas de las salas*/
+.texto {
+    margin-top: 360px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 200px;
+    padding: 10px;
+}
+
+.texto2 {
+    margin-left: -20px;
+    margin-top: 640px;
+    position: absolute;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 230px;
+    padding: 10px;
+}
+
+.texto3 {
+    margin-left: -20px;
+    margin-top: 1100px;
+    position: absolute;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 330px;
+    padding: 10px;
+}
+
+.texto4 {
+    margin-left: -20px;
+    margin-top: 1630px;
+    position: absolute;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 90px;
+    padding: 10px;
+}
+
+.texto5 {
+    margin-left: -20px;
+    margin-top: 2050px;
+    position: absolute;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 800px;
+    padding: 10px;
+}
+
+.texto6 {
+    position: absolute;
+    margin-top: 1370px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 770px;
+    padding: 10px;
+}
+
+.texto7 {
+    position: absolute;
+    margin-top: 3570px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 570px;
+    padding: 10px;
+}
+
+.texto8 {
+    position: absolute;
+    margin-top: 2200px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 470px;
+    padding: 10px;
+}
+
+.texto9 {
+    position: absolute;
+    margin-top: 990px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 570px;
+    padding: 10px;
+}
+
+.texto10 {
+    position: absolute;
+    margin-top: 1970px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 570px;
+    padding: 10px;
+}
+
+.texto11 {
+    position: absolute;
+    margin-top: 1970px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 270px;
+    padding: 10px;
+}
+
+.texto12 {
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 570px;
+    padding: 10px;
+}
+
+.texto13 {
+    position: absolute;
+    margin-top: 1270px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 300px;
+    padding: 10px;
+}
+
+.texto14 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 240px;
+    padding: 10px;
+}
+
+.texto15 {
+    position: absolute;
+    margin-top: 1310px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 240px;
+    padding: 10px;
+}
+
+.texto16 {
+    position: absolute;
+    margin-top: 2900px;
+    margin-left: -20px;
+    text-align: justify;
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    height: 240px;
+    padding: 10px;
+}
+
+/*Estilo de las listas de ñlas distintas páginas de las salas*/
+.lista {
+    margin-left: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: justify;
+    width: 800px;
+    height: 100px;
+    margin-top: 550px;
+}
+
+.lista2 {
+    position: absolute;
+    margin-left: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: justify;
+    width: 800px;
+    height: 240px;
+    margin-top: 860px;
+}
+
+.lista3 {
+    position: absolute;
+    margin-left: 20px;
+    color: #ffffff;
+    display: flex;
+    text-align: justify;
+    width: 800px;
+    height: 240px;
+    margin-top: 1415px;
+}

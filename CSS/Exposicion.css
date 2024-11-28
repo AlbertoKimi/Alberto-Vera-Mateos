@@ -1,0 +1,68 @@
+/*CSS de la página exposiciones*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Div del contenedor grande que contiene los distintos elementos de la página*/
+.contenedor-grande2 {
+    width: 60%;
+    height: 2430px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Estilos de los títulos*/
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Las distintas fotoexp son los estilos de las fotografías de la página*/
+.fotoexp {
+    margin-left: 190px;
+    position: relative;
+    width: 60%;
+    height: 770px;
+    display: flex;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.fotoexp2 {
+    margin-left: -610px;
+    margin-top: 1880px;
+    position: relative;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.fotoexp img {
+    border-radius: 20%;
+}
+
+/*Estilo de los textos de la página*/
+.texto {
+    margin-top: 740px;
+    margin-left: 20px;
+    text-align: justify;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 260px;
+    padding: 10px;
+}

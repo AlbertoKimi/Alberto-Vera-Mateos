@@ -1,0 +1,146 @@
+/*CSS de las páginas musica y nuestraHistoria*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Contenedor grande de la página nuestraHistoria */
+.contenedor-grande {
+    width: 60%;
+    height: 2200px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Contenedor grande de la página música*/
+.contenedor-grande2 {
+    width: 60%;
+    height: 1500px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.texto {
+    margin-top: 7px;
+    margin-left: 20px;
+    text-align: justify;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 260px;
+    padding: 10px;
+}
+
+/*Las distintas galeria hace referencia a los estilos y divs de las distintas imágenes de las páginas musica y 
+nuestraHistoria*/
+.galeria {
+    position: relative;
+    margin-top: 1200px;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria-foto:nth-child(1) {
+    /* Hace que la foto 1 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}
+
+.galeria-foto:nth-child(4) {
+    /* Hace que la foto 4 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}
+
+.galeria2 {
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 200px;
+    width: 52%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeria3 {
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 150px;
+    width: 39%;
+    height: 630px;
+    display: flex;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeriamap {
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 130px;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeriaMus {
+    position: relative;
+    margin-top: 520px;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeriaMus img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria-foto:nth-child(1) {
+    /* Hace que la foto 1 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}
+
+.galeria-foto:nth-child(4) {
+    /* Hace que la foto 4 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}

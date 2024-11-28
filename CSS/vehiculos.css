@@ -1,0 +1,78 @@
+/*CSS de la página coches*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Div principal que contiene los diferentes divs de la página principal*/
+.contenedor-grande4 {
+    width: 60%;
+    height: 1200px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Estilo del título*/
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Estilo de los texto de la página*/
+.texto {
+    margin-top: 7px;
+    margin-left: 20px;
+    text-align: justify;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 260px;
+    padding: 10px;
+}
+
+.texto a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Estilo de la galeria doonde están las imágenes de la página*/
+.galeria {
+    margin-top: 200px;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria-foto:nth-child(1) {
+    /*Hace que la foto 1 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}
+
+.galeria-foto:nth-child(4) {
+    /*Hace que la foto 4 ocupe 2 columnas*/
+    grid-column-start: span 2;
+
+}

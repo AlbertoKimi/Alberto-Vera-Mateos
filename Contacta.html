@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museo MUVI</title>
+  <link rel="stylesheet" href="CSS/libreriaMUVI.css">
+  <link rel="stylesheet" href="CSS/contacta.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- vamos a crear el menú horizontal-->
+  <header class="header">
+    <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+      <div class="logo">
+        <h1><img src="Imagenes/Logo.jpg"></h1>
+      </div>
+      <nav class="menu">
+        <a href="MUVI2.html">Inicio</a>
+        <a href="HistoriaMUVI.html">Historia MUVI</a>
+        <a href="Exposiciones.html">Exposiciones</a>
+        <a href="Visita.html">Visita el MUVI</a>
+        <a href="Coches.html">Museo Vehículos</a>
+        <a href="Contacta.html">Contacta</a>
+      </nav>
+    </div>
+  </header>
+  <div class="capa"></div>
+
+  <!--Vamos a crear el menú lateral-->
+  <input type="checkbox" id="btn-menu" />
+  <div class="container-menu">
+    <div class="cont-menu">
+      <nav>
+        <a href="Galeria.html">Galería</a>
+        <a href="Cesiones.html">Cesiones</a>
+        <a href="MuseoMundo.html">Museos del mundo</a>
+        <a href="Documentos.html">Documentos/solicitudes</a>
+        <a href="#">Nuestras redes:</a>
+      </nav>
+      <label for="btn-menu">X</label>
+    </div>
+    <div class="redes">
+      <nav>
+        <a href="https://www.facebook.com/museodevillafranca11MUVI/?locale=es_ES" target="_blank">
+          <i class="bx bxl-facebook" style="color:white"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCYTJXBamXE-sFHFLSRfr0Xw" target="_blank">
+          <i class="bx bxl-youtube" style="color:white"></i>
+        </a>
+        <a href="https://www.instagram.com/muvimuseo/" target="_blank">
+          <i class="bx bxl-instagram" style="color:white"></i>
+        </a>
+        <a href="https://x.com/muvivca" target="_blank">
+          <i class="bx bxl-twitter" style="color:white"></i>
+        </a>
+        <a href="https://muvivca.wordpress.com/" target="_blank">
+          <i class="bx bxl-wordpress" style="color:white"></i>
+        </a>
+      </nav>
+    </div>
+
+  </div>
+</body>
+
+<body class="body2">
+  <div class="tit">
+    <h1>LOCALIZACIÓN/CONTACTO</h1>
+    <p>TELÉFONO: 924 524 406
+      <br><br>
+      EMAIL: muvi@villafrancadelosbarros.es
+    </p>
+  </div>
+  <!--Vamos a crear el contenedor que tendrá el mapa y el pequeño "formulario" de envío de email-->
+  <div class="contenedor-grande">
+    <div class="contenedor-contacta">
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1311.7213361181484!2d-6.33962688586156!3d38.561037002960965!
+          2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd14015ea334773d%3A0xfbe578659b4d2dfe!2sMuseo%20Hist%C3%B3rico-Etnogr%C3%A1fico%20y%20del%20Veh%C3%ADculo
+          %20Cl%C3%A1sico%20de%20Villafranca%20de%20los%20Barros%20(BA)%20MUVI!5e0!3m2!1ses!2ses!4v1731873205955!5m2!1ses!2ses"
+          width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>"
+      </div>
+      <div class="correo">
+        <h2>Contacta con nosotros</h2>
+        <form>
+          <input type="text" placeholder="Nombre" class="correo-texto">
+          <input type="text" placeholder="Correo electrónico" class="correo-texto">
+          <textarea placeholder="Escriba su mensaje" class="correoarea"></textarea>
+          <input type="submit" name="Enviar" class="correo-boton">
+        </form>
+      </div>
+    </div>
+
+    <div class="tit2">
+      <h1>HORARIO</h1>
+    </div>
+    <div class="horario">
+      <table>
+        <tr>
+          <th>Horario Invierno</th>
+          <th>Horario Verano</th>
+        </tr>
+        <tr>
+          <th>Mañana:</th>
+          <th>Mañana:</th>
+        </tr>
+        <tr>
+          <td>De Martes a Domingo de 11:00 - 14:00</td>
+          <td>De Martes a Domingo de 10:00 - 14:00</td>
+        </tr>
+        <tr>
+          <th>Tardes:</th>
+          <th>Tardes:</th>
+        </tr>
+        <tr>
+          <td>De Martes a Sábados de 18:00 - 20:00</td>
+          <td>De Martes a Sábados de 19:00 - 21:00</td>
+        </tr>
+        <td colspan="2">Domingos de tarde y los lunes el museo cierra sus puertas</td>
+      </table>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

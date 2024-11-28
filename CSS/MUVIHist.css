@@ -1,0 +1,154 @@
+/*CSS de la página HistoriaMUVI*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Contenedor grande que está los distintos elementos y divs de la página*/
+.contenedor-grande {
+    width: 60%;
+    height: 1650px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Los distintos texto indica los estilos de los distintos divs de texto que hay en la página HistoriaMUVI*/
+.texto {
+    margin-top: 7px;
+    margin-left: 20px;
+    text-align: justify;
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 260px;
+    padding: 10px;
+}
+
+.texto2 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 235px;
+    width: 27%;
+    height: 370px;
+    padding: 10px;
+}
+
+.texto3 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 570px;
+    width: 56%;
+    height: 120px;
+    padding: 10px;
+}
+
+.texto4 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 400px;
+    position: absolute;
+    display: flex;
+    margin-top: 630px;
+    width: 30%;
+    height: 320px;
+    padding: 10px;
+}
+
+.texto5 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 890px;
+    width: 55%;
+    height: 260px;
+    padding: 10px;
+}
+
+.texto6 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 1100px;
+    width: 27%;
+    height: 370px;
+    padding: 10px;
+}
+
+.texto7 {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    margin-top: 1420px;
+    width: 55%;
+    height: 170px;
+    padding: 10px;
+}
+
+
+/*Estilos de las distintas imágenes que hay en la página*/
+.img1 {
+
+    margin-top: 290px;
+    margin-left: 435px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img1 img {
+    border-radius: 5px;
+}
+
+.img2 {
+
+    margin-top: 700px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img2 img {
+    border-radius: 5px;
+}
+
+.img3 {
+
+    margin-top: 1140px;
+    margin-left: 440px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.img3 img {
+    border-radius: 5px;
+}

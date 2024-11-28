@@ -1,0 +1,513 @@
+/*Importo la fuente de texto de página web de este enlace*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
+
+/*CSS principal de los menús de la página web así como la parte de la lista de la página documentos*/
+
+/*Reiniciar esas clases para poder poner los estilos a mi gusto*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+
+    background-image: url("Fondo.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Creo una capa semitransparente que se pone encima de la imagen de fondo de toda la página web*/
+.capa {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+/*Estilos para el menú horizontal fijo*/
+.header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+/*Es el contenedor del menú horizontal fijo*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .btn-menu,
+.logo {
+    float: left;
+    line-height: 100px;
+}
+
+.container .btn-menu label {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/*Contiene el logo del museo en el menú horizontal*/
+.logo h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.container .menu {
+    float: right;
+    line-height: 100px;
+}
+
+/*Estilos del menú horizontal*/
+.container .menu a {
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.container .menu a:hover {
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+/*Fin de Estilos para el menú horizontal principal*/
+
+/*Menú lateral*/
+
+#btn-menu {
+    display: none;
+}
+
+/*Es el contenedor principal del menú lateral*/
+.container-menu {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-menu:checked~.container-menu {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    /*Hacer fijo el menú lateral cuando hago click*/
+}
+
+/*Contiene los distintos estilos de los elementos del menú lateral*/
+.cont-menu {
+    width: 100%;
+    max-width: 330px;
+    background: #1c1c1c;
+    height: 55vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+    margin-top: 100px;
+
+}
+
+/*Para hacer que el menú se translade hacia la derecha y cuando haga click en la x se cierre y vuelva a su estado original*/
+#btn-menu:checked~.container-menu .cont-menu {
+    transform: translateX(0%);
+}
+
+.cont-menu nav {
+    transform: translateY(15%);
+}
+
+.cont-menu nav a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+
+}
+
+.cont-menu nav a:hover {
+    border-left: 5px solid #c7c7c7;
+    background: #1f1f1f;
+}
+
+/*Menú redes sociales-menú lateral*/
+
+/*Es el contenedor grande/principal que contiene los distintos iconos de las redes sociales*/
+.redes {
+    max-width: 330px;
+    height: 100px;
+    position: relative;
+    text-decoration: none;
+    align-items: center;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+    background: #1c1c1c;
+
+}
+
+#btn-menu:checked~.container-menu .redes {
+    transform: translateX(0%);
+}
+
+.redes nav {
+    transform: translateY(15%);
+}
+
+
+.redes a {
+    text-decoration: none;
+    display: inline-block;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+/*Estilo del botón X en el menú lateral*/
+.cont-menu label {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bxl-facebook {
+    border: 1px solid #3b5998;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #3b5998;
+    margin: 5px;
+}
+
+.bxl-youtube {
+    border: 1px solid #e52a23;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #e52a23;
+    margin: 5px;
+}
+
+.bxl-instagram {
+    border: 1px solid #fbad50;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #fbad50;
+    margin: 5px;
+}
+
+.bxl-twitter {
+    border: 1px solid #00acee;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #00acee;
+    margin: 5px;
+}
+
+.bxl-wordpress {
+    border: 1px solid #21759b;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #21759b;
+    margin: 5px;
+}
+
+.bx:hover {
+    transform: (1.5);
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+/*Fin de Menù lateral*/
+
+/*Contenedor-grande general para usarlo en otras páginas*/
+
+.contenedor-grande {
+    width: 60%;
+    height: 1500px;
+    display: flex;
+    margin-top: 98px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+
+
+/*CSS contenedor de imagenes*/
+
+/*Contenedor principal de las imágenes que se van trasladando*/
+.container-principal {
+    background: rgb(250, 250, 250, 0.4);
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 502px;
+    top: 98px;
+    left: 350px;
+
+}
+
+.slider-box {
+    width: 800px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0px;
+    width: 400%;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+
+.slider-box ul:hover {
+    animation-play-state: paused;
+    /*Hace que si pasas por encima el cursor se pare la animación*/
+    cursor: pointer;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+/*Estilos del texto dentro de las imágenes*/
+.texto {
+    position: absolute;
+    text-align: center;
+    margin-left: 80px;
+    padding: 0 150px;
+    top: 165px;
+    color: #ffffff
+}
+
+.texto h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+/*Función para que las imágenes se muevan*/
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/*Función para ajustar el tamaño de los textos cuando cambias el tamaño de la página*/
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    .slider-box {
+        width: 100px;
+    }
+
+    .texto {
+        top: 50px;
+        padding: 0 25px;
+    }
+
+    .texto h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .texto p {
+        font-size: 15px;
+    }
+}
+
+/*Fin CSS imagenes que se mueven*/
+
+/*CSS bienvenido al museo*/
+
+.contenedor2,
+.caja,
+.titulo,
+.content {
+    width: 100%;
+}
+
+/*Contenedor grande que contiene las distintas fotos y texto de los cargos*/
+.contenedor2 {
+
+    background: rgb(250, 250, 250, 0.4);
+    position: absolute;
+    text-align: center;
+    height: 465px;
+    width: 60%;
+    margin: auto;
+    margin-top: 600px;
+    color: white;
+    line-height: 1.7;
+    left: 350px;
+}
+
+.titulo {
+
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.titulo h1 {
+
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+
+}
+
+.caja figure {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.caja figure img {
+    transition: 1s;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contenedor2 img:hover {
+    width: 50%;
+    height: 50%;
+}
+
+/* CSS Distintivos*/
+
+/*Contenedor principal de los distintivos de la página principal*/
+.contenedor3 {
+    background: rgb(250, 250, 250, 0.4);
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    height: 250px;
+    margin: auto;
+    margin-top: 1065px;
+    color: white;
+    line-height: 1.7;
+    left: 350px;
+}
+
+.contenedor3 img {
+    padding: 10px;
+    position: relative;
+    max-width: 100px;
+    min-height: 100px;
+    object-fit: cover;
+    border-radius: 90%;
+}
+
+.titulo3 {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.titulo3 h1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.contenedor3 a {
+    text-decoration: none;
+}
+
+/*CSS Pagina de documentos*/
+
+/*Contenedor principal de la página de documentos*/
+.contenedor-documentos {
+    width: 60%;
+    height: 595px;
+    display: grid;
+    margin-top: 98px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Estilos de los enlaces para la descarga de documentos*/
+.descargas {
+    width: 800px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.descargas a {
+    padding: 12px;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}

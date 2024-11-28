@@ -1,0 +1,48 @@
+/*CSS de la página Galeria*/
+
+/*Contenedor grande que contiene los distintos divs de fotografías de la página*/
+.contenedor-grande {
+    width: 60%;
+    height: 1000px;
+    display: grid;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/*Contenedor o div de la galería de imágenes y sus distintos estilos*/
+.galeria {
+    position: relative;
+}
+
+.galeria-txt {
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    margin: 0;
+    padding: 10px;
+
+}
+
+.galeria-img {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tit {
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}

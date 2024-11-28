@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museo MUVI</title>
+  <link rel="stylesheet" href="CSS/libreriaMUVI.css">
+  <link rel="stylesheet" href="CSS/Encuesta.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- vamos a crear el menú horizontal-->
+  <header class="header">
+    <div class="container">
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+      <div class="logo">
+        <h1><img src="Imagenes/Logo.jpg"></h1>
+      </div>
+      <nav class="menu">
+        <a href="MUVI2.html">Inicio</a>
+        <a href="HistoriaMUVI.html">Historia MUVI</a>
+        <a href="Exposiciones.html">Exposiciones</a>
+        <a href="Visita.html">Visita el MUVI</a>
+        <a href="Coches.html">Museo Vehículos</a>
+        <a href="Contacta.html">Contacta</a>
+      </nav>
+    </div>
+  </header>
+  <div class="capa"></div>
+
+  <!--Vamos a crear el menú lateral-->
+  <input type="checkbox" id="btn-menu" />
+  <div class="container-menu">
+    <div class="cont-menu">
+      <nav>
+        <a href="Galeria.html">Galería</a>
+        <a href="Cesiones.html">Cesiones</a>
+        <a href="MuseoMundo.html">Museos del mundo</a>
+        <a href="Documentos.html">Documentos/solicitudes</a>
+        <a href="#">Nuestras redes:</a>
+      </nav>
+      <label for="btn-menu">X</label>
+    </div>
+    <div class="redes">
+      <nav>
+        <a href="https://www.facebook.com/museodevillafranca11MUVI/?locale=es_ES" target="_blank">
+          <i class="bx bxl-facebook" style="color:white"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCYTJXBamXE-sFHFLSRfr0Xw" target="_blank">
+          <i class="bx bxl-youtube" style="color:white"></i>
+        </a>
+        <a href="https://www.instagram.com/muvimuseo/" target="_blank">
+          <i class="bx bxl-instagram" style="color:white"></i>
+        </a>
+        <a href="https://x.com/muvivca" target="_blank">
+          <i class="bx bxl-twitter" style="color:white"></i>
+        </a>
+        <a href="https://muvivca.wordpress.com/" target="_blank">
+          <i class="bx bxl-wordpress" style="color:white"></i>
+        </a>
+      </nav>
+    </div>
+
+  </div>
+
+  <!--Contiene el formulario en español del museo-->
+  <div class="contenedor-grande2">
+    <div class="caja-formulario">
+      <header>
+        <a href="Opinion Ingles.html">
+          <img src="Imagenes/iconoingles.png">
+        </a>
+        <a href="Opinion.html">
+          <img src="Imagenes/iconoesp.png">
+        </a>
+        <h1 class="h1titulo">CUESTIONARIO DE SASTIFACCIÓN DEL VISITANTE</h1>
+        <p class="parrafo">Valore de 1 a 5 cada uno de los aspectos referentes al Museo siendo 1 "no me gusta" y 5 "me
+          gusta"
+        </p>
+      </header>
+      <form class="formulario">
+        <div class="campo">
+          <p>Horario del Museo
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo">
+          <p>Comodidades del Museo (asientos,ascensor...)
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo">
+          <p>Señalización dentro del Museo
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo">
+          <p>Información (textos,vídeos,audios...) en las salas de exposición
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo">
+          <p>El ambiente gemeral creado en las salas de exposición
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo">
+          <p>El trato recibido por parte del personal del Museo
+          </p>
+          <label><input type="radio" name="campo" class="campo-select">1</label>
+          <label><input type="radio" name="campo" class="campo-select">2</label>
+          <label><input type="radio" name="campo" class="campo-select">3</label>
+          <label><input type="radio" name="campo" class="campo-select">4</label>
+          <label><input type="radio" name="campo" class="campo-select">5</label>
+        </div>
+
+        <div class="campo2">
+          <p>¿Cómo ha sabido de la existencia del Museo?
+          </p>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Folletos y
+            carteles</label>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Internet</label>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Medios de
+            Comunicación</label>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Alojamiento o
+            restaurante</label>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Recomendación de un
+            desconocido</label>
+          <label class="labelcuadrado"><input type="checkbox" name="campo" class="campo-checkbox">Otros</label>
+        </div>
+
+        <div class="campo">
+          <p>Comentarios y sugerencias</p>
+          <textarea class="campoarea" placeholder="Escriba aquí tu comentario"></textarea>
+        </div>
+
+        <div class="campo">
+          <input type="submit" value="Enviar" class="boton">
+        </div>
+
+        <p class="parrafo">GRACIAS POR SU VISITA. ESPERAMOS VERLE DE NUEVO PRÓXIMAMENTE</p>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

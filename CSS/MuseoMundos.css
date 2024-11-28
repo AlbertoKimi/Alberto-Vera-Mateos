@@ -1,0 +1,105 @@
+/*CSS de las páginas MuseoMundos, españa, extremadura y mundos*/
+
+/*Contenedor principal de la página MuseoMundos*/
+.contenedor-grande{
+    width: 60%;
+    height: 1000px;
+    display: grid;
+    margin-top:0px;
+    margin-left:350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/*Contenedor principal de la página Extremadura*/
+.contenedor-extremadura{
+    width: 60%;
+    height: 1650px;
+    display: grid;
+    margin-top:0px;
+    margin-left:350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/*Contenedor principal de la página España*/
+.contenedor-españa{
+    width: 60%;
+    height: 1300px;
+    display: grid;
+    margin-top:0px;
+    margin-left:350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/*Contenedor principal de la página Mundos*/
+.contenedor-mundo{
+    width: 60%;
+    height: 1000px;
+    display: grid;
+    margin-top:0px;
+    margin-left:350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+.tit{
+    background: rgb(250, 250, 250, 0.4);
+    margin-left:350px;
+    width:60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Contenedor de las imágenes de las distintas páginas linkeadas*/
+.galeria{
+    position: relative;
+}
+.galeria-txt{
+    border-radius: 4px;
+    position: absolute;
+    bottom:0;
+    color:#ffffff;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
+
+}
+
+.galeria-txtextre{
+    border-radius: 4px;
+    font-size: 15px;
+    position: absolute;
+    bottom:0;
+    color:#ffffff;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));
+    margin: 0;
+    padding: 10px;
+
+}
+
+.galeria-img{
+    border-radius: 4px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

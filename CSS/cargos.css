@@ -1,0 +1,64 @@
+/*CSS de las páginas de cargos de alcalde, concejala y coordinador del museo*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Es el contenedor principal de los cargos*/
+.contenedor-grande {
+    width: 60%;
+    height: 1200px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Es el estilo del contenedor que está dentro del contenedor principal. En él se encuentran los distintos elementos de las imágenes 
+y el texto*/
+.contenedor-cargos {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tit {
+    padding: 20px;
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.imgcargos img {
+    width: 40%;
+    border-radius: 10%;
+    margin-top: 10px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.texto {
+    text-align: justify;
+    color: #ffffff;
+    margin-left: -60px;
+    position: absolute;
+    display: flex;
+    margin-top: 460px;
+    width: 65%;
+    height: 700px;
+
+}

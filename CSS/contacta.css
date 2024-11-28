@@ -1,0 +1,159 @@
+/*CSS de la página de contacta*/
+
+.body2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/*Div del contenedor grande que contiene el formulario,la localización del mapa y la tabla del horario*/
+.contenedor-grande {
+    width: 60%;
+    height: 1000px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 350px;
+    overflow: hidden;
+    background: rgb(250, 250, 250, 0.4);
+}
+
+/*Es el div que contiene la parte del formulario y de la localización del mapa*/
+.contenedor-contacta {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+
+/*Div que contiene la localización del mapa*/
+.mapa {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*Div que contiene el formulario de enviar un correo*/
+.correo {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.correo h2 {
+    margin-bottom: 10px;
+}
+
+.correo-texto {
+    width: 100%;
+    height: 40%;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.correo-texto::placeholder {
+    color: #aaa;
+}
+
+.correoarea {
+    width: 100%;
+    height: 1300%;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.correo-area::placeholder {
+    color: #aaa;
+}
+
+.correo-boton {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #c12636;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.correo-boton:hover {
+    background-color: #5a0009;
+}
+
+/*Div que contiene la tabla del horario del museo*/
+.horario {
+    margin-left: 80px;
+    position: absolute;
+    display: flex;
+    margin-top: 500px;
+    width: 50%;
+    height: 400px;
+
+}
+
+table {
+    width: 100%;
+}
+
+table,
+td {
+    padding: 20px;
+    border: 2px solid #000;
+    background: #ffffff;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+
+.table,
+th {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Los tit hace referencia a los divs de los títulos de la página contacta*/
+.tit {
+    padding: 20px;
+    background: rgb(250, 250, 250, 0.4);
+    margin-left: 350px;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tit p {
+    padding: 10px;
+}
+
+.tit2 {
+    padding: 20px;
+    margin-left: 185px;
+    width: 60%;
+    margin-top: 400px;
+    text-align: center;
+    color: #ffffff;
+}
