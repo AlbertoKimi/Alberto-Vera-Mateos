@@ -13,7 +13,7 @@
 
 body {
 
-    background-image: url("Fondo.jpeg");
+    background-image: url("../Imagenes/Fondo.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
